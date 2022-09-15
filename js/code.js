@@ -42,7 +42,9 @@ function doRegister()
 					document.getElementById("registerResult").innerHTML = "Account successfully created";
 				}
 		
-				window.location.href = "index.html";
+				saveCookie(); 
+          
+        		window.location.href = "Dashboard.html";
 			}
 		};
 
